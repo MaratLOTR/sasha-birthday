@@ -46,7 +46,6 @@ em { font-weight: inherit; }
 .hero { min-height: 694px; padding-top: 63px; padding-bottom: 64px; display: grid; grid-template-columns: 1.04fr 1fr; align-items: center; gap: 12px; position: relative; }
 .hero-copy { position: relative; z-index: 2; }
 .hero .eyebrow { color: #d8bdad; display: flex; align-items: center; gap: 10px; margin-bottom: 23px; }
-.tiny-star { font-size: 22px; line-height: 1; color: var(--gold); }
 h1 { font-family: var(--serif); font-size: clamp(68px, 7.9vw, 105px); line-height: .99; font-weight: 400; letter-spacing: -4.6px; }
 h1 em { color: var(--gold); }
 .title-dot { color: var(--gold); }
@@ -63,17 +62,14 @@ h1 em { color: var(--gold); }
 .hero-photo-small { width: 204px; top: 252px; left: -9px; transform: rotate(-10deg); z-index: 2; padding: 8px 8px 0; }
 .hero-photo-small img { aspect-ratio: 4 / 5; object-fit: cover; object-position: center 62%; }
 .hero-photo-small figcaption { font-size: 11px; padding-block: 11px; }
-.hero-sparkle { position: absolute; width: 64px; height: 76px; top: 26px; left: 17px; color: var(--gold); transform: rotate(-9deg); }
 .birthday-stamp { position: absolute; top: 0; right: -19px; width: 103px; height: 103px; border-radius: 50%; border: 1px solid var(--gold); outline: 1px solid #d5b38c70; outline-offset: -6px; z-index: 3; background: var(--wine); color: var(--gold); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; transform: rotate(16deg); }
 .birthday-stamp span { font-size: 7px; letter-spacing: 2px; }
 .birthday-stamp b { font-size: 30px; font-weight: 400; line-height: 1; }
 .hero-note { position: absolute; right: 14px; bottom: 16px; color: #dfbea0; font-size: 23px; transform: rotate(-7deg); }
 .hero-note span { display: inline-block; font-size: 47px; transform: rotate(-15deg); margin-left: 9px; }
-.collage-plus { position: absolute; right: -24px; bottom: 113px; color: var(--gold); font-family: var(--serif); font-size: 40px; font-weight: 400; transform: rotate(15deg); }
 
 .birthday-ribbon { background: #d4b99a; color: #57362f; padding: 17px 0; overflow: hidden; }
-.birthday-ribbon > div { white-space: nowrap; width: max-content; display: flex; gap: 45px; align-items: center; text-transform: uppercase; font-size: 9px; letter-spacing: 2px; }
-.birthday-ribbon span { font-size: 20px; line-height: 1; }
+.birthday-ribbon > div { white-space: nowrap; width: max-content; display: flex; gap: 45px; align-items: center; text-transform: uppercase; font-size: 9px; line-height: 20px; letter-spacing: 2px; }
 .paper-section { position: relative; }
 .paper-section > * { position: relative; }
 .moments { padding-block: 94px 69px; }
@@ -157,8 +153,7 @@ h2 em { color: #8c4b4e; }
 .letter-cat { width: 110px; height: 88px; margin: 26px auto 17px; color: #80424a; }
 .letter-overline { font-size: 9px; color: var(--muted); letter-spacing: .4px; margin-bottom: 14px; }
 .invitation-paper h2 { font-size: 44px; line-height: 1.12; letter-spacing: -1.5px; }
-.letter-divider { color: #a77d5b; font-size: 21px; margin-block: 18px; }
-#invitation-description { font-size: 13px; line-height: 1.85; color: #765e51; }
+#invitation-description { margin-top: 28px; font-size: 13px; line-height: 1.85; color: #765e51; }
 .letter-details { font-size: 12px; line-height: 1.9; margin-top: 17px; color: #765e51; }
 .letter-signature { font-size: 19px; line-height: 1.5; margin-top: 25px; color: #8c4b4e; }
 .letter-bottom { display: block; margin-top: 32px; font-size: 7px; letter-spacing: 2px; color: #a1826c; }
@@ -178,10 +173,8 @@ h2 em { color: #8c4b4e; }
   .hero-collage { height: 490px; }
   .hero-photo-main { width: 260px; top: 38px; right: 14px; }
   .hero-photo-small { width: 177px; top: 249px; left: -5px; }
-  .hero-sparkle { width: 48px; left: 0; top: 30px; }
   .birthday-stamp { width: 85px; height: 85px; top: 9px; right: -5px; }
   .hero-note { font-size: 20px; right: 0; bottom: -5px; }
-  .collage-plus { display: none; }
   .photo-wall { gap: 21px; }
   .polaroid { padding: 8px 8px 0; }
   .moment figcaption { font-size: 11px; }
@@ -214,7 +207,6 @@ h2 em { color: #8c4b4e; }
   .birthday-stamp { top: 3px; right: -5px; width: 79px; height: 79px; }
   .birthday-stamp span { font-size: 6px; letter-spacing: 1.6px; }
   .birthday-stamp b { font-size: 25px; }
-  .hero-sparkle { left: 20px; top: 48px; }
   .hero-note { bottom: -4px; right: 6px; font-size: 20px; }
   .hero-note span { font-size: 35px; }
   .birthday-ribbon { padding-block: 15px; }
