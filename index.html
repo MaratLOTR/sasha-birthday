@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#49232c">
+    <meta name="description" content="Маленькая страница с большим теплом. Саша, с днём рождения!">
+    <title>Саша, с днём рождения ♡</title>
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#moments">Перейти к поздравлению</a>
+
+    <main>
+    <div class="birthday-cover" id="top">
+      <header class="site-header page-width">
+        <a class="wordmark" href="#top" aria-label="Для Саши — в начало">для Саши <span aria-hidden="true">♡</span></a>
+        <nav aria-label="По этой открытке">
+          <a href="#moments">Моменты</a>
+          <a href="#wishes">Пара слов</a>
+          <a class="nav-surprise" href="#surprise">Твой сюрприз <span aria-hidden="true">↗</span></a>
+        </nav>
+      </header>
+
+        <section class="hero page-width" aria-labelledby="birthday-title">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="tiny-star" aria-hidden="true">✳</span> Сегодня всё про тебя</p>
+            <h1 id="birthday-title"><em>Саша,</em><br>с днём<br>рождения<span class="title-dot">!</span></h1>
+            <p class="hero-description">Пусть в жизни будет больше тёплых объятий,<br class="desktop-break"> маленьких приключений и поводов улыбаться.</p>
+            <a class="hero-scroll" href="#moments"><span class="arrow-circle" aria-hidden="true">↓</span> Здесь кое-что для тебя</a>
+          </div>
+
+          <div class="hero-collage" aria-label="Любимые фотографии Саши">
+            <svg class="hero-sparkle" viewBox="0 0 80 90" fill="none" aria-hidden="true"><path d="M39 3C38 28 30 40 4 44c26 2 35 13 36 40 2-26 11-38 35-41C50 41 41 28 39 3Z" stroke="currentColor" stroke-width="1.5"/><path d="m65 3 1 17m-9-9 17 1" stroke="currentColor" stroke-width="1.5"/></svg>
+            <div class="birthday-stamp" aria-hidden="true"><span>ОДНА ТАКАЯ</span><b>♡</b><span>И ЭТО ТЫ</span></div>
+            <figure class="polaroid hero-photo hero-photo-main">
+              <img src="./assets/photos/sasha-cat.jpg" width="768" height="1024" alt="Саша обнимает большого рыжего кота" fetchpriority="high">
+              <figcaption>у счастья мягкие лапки</figcaption>
+            </figure>
+            <figure class="polaroid hero-photo hero-photo-small">
+              <img src="./assets/photos/sasha-tiger.jpg" width="768" height="1024" alt="Саша у бамбука и фигурки белого тигра">
+              <figcaption>немного дикой красоты ♡</figcaption>
+            </figure>
+            <div class="handwritten hero-note" aria-hidden="true">самая-самая <span>↗</span></div>
+            <span class="collage-plus" aria-hidden="true">+</span>
+          </div>
+        </section>
+    </div>
+
+        <div class="birthday-ribbon" aria-hidden="true"><div>Побольше счастья <span>✳</span> Поближе к мечтам <span>✳</span> Покрепче обниматься <span>✳</span> С днём рождения <span>✳</span> Побольше счастья <span>✳</span> Поближе к мечтам <span>✳</span></div></div>
+
+        <section class="moments paper-section" id="moments" aria-labelledby="moments-title">
+          <div class="page-width">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">01 / Маленькая коллекция</p>
+                <h2 id="moments-title">Тебе очень идёт<br><em>быть собой.</em></h2>
+              </div>
+              <p class="section-aside">Немного кадров, в которых — ты.<br>Такая разная. И всегда прекрасная.</p>
+            </div>
+
+            <div class="photo-wall">
+              <figure class="polaroid moment moment-pink">
+                <div class="photo-mount"><img src="./assets/photos/sasha-pink.jpg" width="768" height="1024" alt="Саша на фоне яркого розового рисунка" loading="lazy"></div>
+                <figcaption><span>01</span> В твоих красках</figcaption>
+                <span class="paper-tape" aria-hidden="true"></span>
+              </figure>
+              <figure class="polaroid moment moment-museum">
+                <div class="photo-mount"><img src="./assets/photos/sasha-museum.jpg" width="768" height="1024" alt="Саша в музее рядом с экспонатом динозавра" loading="lazy"></div>
+                <figcaption><span>02</span> Навстречу открытиям</figcaption>
+                <span class="paper-tape" aria-hidden="true"></span>
+              </figure>
+              <div class="photo-stack">
+                <figure class="polaroid moment moment-summer">
+                  <div class="photo-mount summer-mount"><img src="./assets/photos/sasha-summer.jpg" width="665" height="1182" alt="Саша с блёстками на лице среди летней зелени" loading="lazy"></div>
+                  <figcaption><span>03</span> Чуть-чуть летнего волшебства</figcaption>
+                </figure>
+                <figure class="polaroid moment moment-together">
+                  <div class="photo-mount"><img src="./assets/photos/together.jpg" width="1024" height="768" alt="Совместная фотография Саши и молодого человека на солнечной улице" loading="lazy"></div>
+                  <figcaption><span>04</span> Рядом — теплее</figcaption>
+                </figure>
+              </div>
+            </div>
+            <p class="photo-wall-note handwritten">Пусть любимых моментов становится только больше.</p>
+          </div>
+        </section>
+
+        <section class="wishes paper-section" id="wishes" aria-labelledby="wishes-title">
+          <div class="wishes-layout page-width">
+            <div class="wishes-margin">
+              <p class="eyebrow">02 / От всего сердца</p>
+              <div class="margin-doodle" aria-hidden="true">
+                <svg viewBox="0 0 110 100" fill="none"><path d="M54 86C33 71 9 54 12 31 15 7 46 8 54 30 65 7 94 9 98 32c3 24-24 42-44 54Z" stroke="currentColor" stroke-width="1.5"/><path d="m12 6-5-5m90 6 6-5M3 57l-3 2m105 0 5 2" stroke="currentColor" stroke-width="1.5"/></svg>
+                <p class="handwritten">просто помни:<br>ты чудесная.</p>
+              </div>
+            </div>
+            <div class="wishes-copy">
+              <h2 id="wishes-title">Пусть этот год<br>будет <em>очень твоим.</em></h2>
+              <p>С любимыми людьми рядом. С мечтами, которые постепенно становятся планами. С местами, куда давно хотелось, и днями, которые хочется прожить ещё раз.</p>
+              <p>Пусть хватает смелости на новое, времени на себя и сил на то, что по-настоящему любишь. А счастье пусть находится даже в мелочах: в солнечном утре, случайной улыбке и тихом кошачьем «мур».</p>
+              <p class="wish-signature">Будь счастлива, Саша. Очень-очень.<span aria-hidden="true">♡</span></p>
+            </div>
+          </div>
+        </section>
+
+        <section class="surprise" id="surprise" aria-labelledby="surprise-title">
+          <div class="page-width surprise-layout">
+            <div class="surprise-copy">
+              <p class="eyebrow">03 / Кое-что особенное</p>
+              <h2 id="surprise-title">А это —<br><em>только для тебя.</em></h2>
+              <p>Некоторые подарки не помещаются в коробку.<br>Этот спрятался в маленьком конверте.</p>
+              <span class="handwritten surprise-hint" aria-hidden="true">кажется, намечается что-то красивое… <span>↗</span></span>
+            </div>
+
+            <div class="envelope-area">
+              <button class="envelope" id="envelope" type="button" aria-label="Открыть конверт с приглашением" aria-haspopup="dialog" aria-controls="invitation">
+                <span class="envelope-back" aria-hidden="true"></span>
+                <span class="envelope-letter" aria-hidden="true"><span>для Саши</span><span>с любовью ♡</span></span>
+                <span class="envelope-front" aria-hidden="true"></span>
+                <span class="envelope-flap" aria-hidden="true"></span>
+                <span class="wax-seal" aria-hidden="true">♡</span>
+                <span class="envelope-address" aria-hidden="true">Самой чудесной Саше</span>
+              </button>
+              <p class="envelope-footnote">Один клик — и маленький секрет твой</p>
+              <noscript><p class="noscript-invitation">Приглашение на котосессию ♡<br>Тебя ждёт фотосессия — с улыбками и красивыми кадрами!</p></noscript>
+            </div>
+          </div>
+          <footer class="site-footer page-width"><span>Сделано с теплом. Для тебя.</span><a href="#top">С днём рождения, Саша <span aria-hidden="true">♡</span></a></footer>
+        </section>
+      </main>
+
+    <dialog class="invitation-dialog" id="invitation" aria-labelledby="invitation-title" aria-describedby="invitation-description">
+      <div class="invitation-paper">
+        <button class="close-letter" id="close-letter" type="button" aria-label="Закрыть письмо" autofocus><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.5"/></svg></button>
+        <p class="eyebrow">Особенное письмо для Саши</p>
+        <svg class="letter-cat" viewBox="0 0 140 110" fill="none" aria-hidden="true"><path d="M30 51 25 14l29 17c10-4 23-4 33 0l29-17-6 38c8 10 9 22 3 33-14 25-72 25-87 0-6-12-4-24 4-34Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m35 35-3-10 11 7m54 0 11-7-2 11M43 63c4-5 9-5 13 0m28 0c4-5 9-5 13 0M64 75l6 5 6-5H64Zm6 5v5m-10 1c4 5 8 4 10-1 3 5 8 6 11 1M31 73 9 68m22 13L8 84m100-11 22-5m-22 13 23 3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M70 14C57 6 61-2 67 2l3 3 3-3c6-4 10 4-3 12Z" fill="currentColor" transform="translate(0 3)"/></svg>
+        <p class="letter-overline">Ты в кадре. И в центре внимания.</p>
+        <h2 id="invitation-title">Приглашение<br>на <em>котосессию</em></h2>
+        <div class="letter-divider" aria-hidden="true">✳</div>
+        <p id="invitation-description">Саша, приглашаю тебя на фотосессию! Будем ловить красивый свет, пробовать разные образы и сохранять твою улыбку в любимых кадрах.</p>
+        <p class="letter-details">Дату выберем вместе.<br>С собой — любимый образ и хорошее настроение.</p>
+        <p class="letter-signature handwritten">Пусть это станет ещё одним<br>твоим счастливым воспоминанием ♡</p>
+        <span class="letter-bottom" aria-hidden="true">С ЛЮБОВЬЮ · В КАЖДОМ КАДРЕ</span>
+      </div>
+    </dialog>
+  </body>
+</html>
